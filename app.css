@@ -52,7 +52,8 @@ dd { margin: 0; overflow-wrap: anywhere; }
 .attachments { padding-top: 20px; border-top: 1px solid var(--line); }
 .attachments h3 { font-size: 15px; }
 .attachments ul { padding-left: 20px; color: var(--muted); }
-footer { padding: 24px; text-align: center; color: var(--muted); font-size: 13px; }
+footer { padding: 24px; display: flex; justify-content: center; gap: 8px; text-align: center; color: var(--muted); font-size: 13px; }
+footer a { font-weight: 700; }
 
 @media (max-width: 650px) {
   .privacy-note { display: none; }

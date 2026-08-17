@@ -48,4 +48,4 @@ Read the [Privacy Policy](PRIVACY.md).
 
 Licensed under the [MIT License](LICENSE).
 
-Built by [Hichem](https://github.com/HichemTab-tech).
+Built by [HichemTab-tech](https://github.com/HichemTab-tech). Source available at [HichemTab-tech/email-to-pdf](https://github.com/HichemTab-tech/email-to-pdf).

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="800" viewBox="0 0 1280 800">
+  <rect width="1280" height="800" fill="#f7f4ee"/>
+  <rect width="1280" height="68" fill="#fff"/>
+  <path d="M0 68h1280" stroke="#dce3e8"/>
+  <rect x="64" y="17" width="34" height="34" rx="10" fill="#e94f37"/>
+  <text x="81" y="41" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#fff">@</text>
+  <text x="108" y="40" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#16202a">EML to PDF</text>
+  <text x="1154" y="39" text-anchor="end" font-family="Arial,sans-serif" font-size="13" fill="#65717d">Local-only conversion</text>
+  <text x="88" y="115" font-family="Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="2" fill="#c63825">PREVIEW</text>
+  <text x="88" y="142" font-family="Arial,sans-serif" font-size="14" fill="#65717d">welcome-to-the-team.eml</text>
+  <rect x="893" y="98" width="140" height="42" rx="9" fill="#fff" stroke="#dce3e8"/>
+  <text x="963" y="124" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#16202a">Choose another</text>
+  <rect x="1045" y="98" width="147" height="42" rx="9" fill="#e94f37"/>
+  <text x="1118" y="124" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#fff">Print / Save PDF</text>
+  <rect x="88" y="164" width="1104" height="636" fill="#fff"/>
+  <text x="152" y="236" font-family="Georgia,serif" font-size="38" font-weight="700" fill="#16202a">Welcome to the team!</text>
+  <text x="152" y="285" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#65717d">FROM</text>
+  <text x="225" y="285" font-family="Arial,sans-serif" font-size="14" fill="#16202a">Hichem &lt;hichem@example.com&gt;</text>
+  <text x="152" y="316" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#65717d">TO</text>
+  <text x="225" y="316" font-family="Arial,sans-serif" font-size="14" fill="#16202a">Alex &lt;alex@example.com&gt;</text>
+  <text x="152" y="347" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#65717d">DATE</text>
+  <text x="225" y="347" font-family="Arial,sans-serif" font-size="14" fill="#16202a">August 17, 2026 at 10:30 AM</text>
+  <path d="M152 378h976" stroke="#dce3e8"/>
+  <text x="152" y="430" font-family="Arial,sans-serif" font-size="17" fill="#16202a">Hi Alex,</text>
+  <text x="152" y="470" font-family="Arial,sans-serif" font-size="17" fill="#16202a">Welcome aboard! Here are the notes and resources from your first day.</text>
+  <rect x="152" y="505" width="262" height="48" rx="8" fill="#e94f37"/>
+  <text x="283" y="535" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" font-weight="700" fill="#fff">View onboarding guide</text>
+  <text x="152" y="605" font-family="Arial,sans-serif" font-size="17" fill="#16202a">Best,</text>
+  <text x="152" y="636" font-family="Arial,sans-serif" font-size="17" fill="#16202a">Hichem</text>
+  <path d="M152 680h976" stroke="#dce3e8"/>
+  <text x="152" y="718" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#16202a">ATTACHMENTS</text>
+  <text x="152" y="750" font-family="Arial,sans-serif" font-size="14" fill="#65717d">• onboarding-guide.pdf · application/pdf</text>
+</svg>

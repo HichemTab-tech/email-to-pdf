@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="800" viewBox="0 0 1280 800">
+  <rect width="1280" height="800" fill="#f7f4ee"/>
+  <rect width="1280" height="68" fill="#fff"/>
+  <path d="M0 68h1280" stroke="#dce3e8"/>
+  <rect x="64" y="17" width="34" height="34" rx="10" fill="#e94f37"/>
+  <text x="81" y="41" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#fff">@</text>
+  <text x="108" y="40" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#16202a">EML to PDF</text>
+  <text x="1154" y="39" text-anchor="end" font-family="Arial,sans-serif" font-size="13" fill="#65717d">Local-only conversion</text>
+  <text x="640" y="142" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="2" fill="#c63825">PRIVATE BY DESIGN</text>
+  <text x="640" y="206" text-anchor="middle" font-family="Georgia,serif" font-size="55" font-weight="700" fill="#16202a">Turn an email into a clean PDF.</text>
+  <text x="640" y="248" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" fill="#65717d">Choose an .eml file. It stays on this device and is never uploaded.</text>
+  <rect x="128" y="292" width="1024" height="265" rx="22" fill="#fff" fill-opacity=".72" stroke="#bbc5cc" stroke-width="2" stroke-dasharray="9 8"/>
+  <circle cx="640" cy="369" r="26" fill="#e94f37"/>
+  <text x="640" y="379" text-anchor="middle" font-family="Arial,sans-serif" font-size="29" fill="#fff">↓</text>
+  <text x="640" y="426" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#16202a">Drop an EML file here</text>
+  <text x="640" y="455" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" fill="#65717d">or click to choose one</text>
+  <rect x="290" y="589" width="700" height="82" fill="#fff"/>
+  <rect x="290" y="589" width="3" height="82" fill="#e94f37"/>
+  <text x="313" y="621" font-family="Arial,sans-serif" font-size="15" font-weight="700" fill="#16202a">Getting an EML from Gmail</text>
+  <text x="313" y="649" font-family="Arial,sans-serif" font-size="14" fill="#65717d">Open the email, choose More (⋮), then Download message.</text>
+  <text x="640" y="754" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="#65717d">Built by </text>
+  <text x="675" y="754" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#16202a">HichemTab-tech · View repository</text>
+</svg>
