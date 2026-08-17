@@ -1,0 +1,14 @@
+{
+  "name": "email-to-pdf",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A private, local-first Chrome extension for converting EML emails to printable PDFs.",
+  "scripts": {
+    "test": "node --test",
+    "check:syntax": "node --check background.js && node --check app.js && node --check lib/eml.js",
+    "check": "npm run check:syntax && npm test && node scripts/validate-extension.mjs",
+    "package": "npm run check && bash scripts/package-extension.sh"
+  },
+  "engines": { "node": ">=22" }
+}

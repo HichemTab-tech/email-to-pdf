@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>EML to PDF</title>
+    <link rel="stylesheet" href="app.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="app.html" aria-label="EML to PDF home">
+        <span class="brand-mark" aria-hidden="true">@</span>
+        <span>EML to PDF</span>
+      </a>
+      <span class="privacy-note">Local-only conversion</span>
+    </header>
+
+    <main>
+      <section id="drop-section" class="drop-section" aria-labelledby="intro-title">
+        <div class="intro">
+          <p class="eyebrow">Private by design</p>
+          <h1 id="intro-title">Turn an email into a clean PDF.</h1>
+          <p class="lede">Choose an <code>.eml</code> file. It stays on this device and is never uploaded.</p>
+        </div>
+
+        <label id="drop-zone" class="drop-zone" for="file-input">
+          <span class="upload-icon" aria-hidden="true">↓</span>
+          <strong>Drop an EML file here</strong>
+          <span>or click to choose one</span>
+          <input id="file-input" type="file" accept=".eml,message/rfc822">
+        </label>
+        <p id="error" class="error" role="alert" hidden></p>
+
+        <aside class="gmail-tip">
+          <strong>Getting an EML from Gmail</strong>
+          <span>Open the email, choose <b>More</b> (⋮), then <b>Download message</b>.</span>
+        </aside>
+      </section>
+
+      <section id="preview-section" class="preview-section" hidden>
+        <div class="toolbar">
+          <div>
+            <p class="eyebrow">Preview</p>
+            <p id="file-name" class="file-name"></p>
+          </div>
+          <div class="toolbar-actions">
+            <button id="choose-another" class="button secondary" type="button">Choose another</button>
+            <button id="print" class="button primary" type="button">Print / Save PDF</button>
+          </div>
+        </div>
+
+        <article id="email-preview" class="paper">
+          <header class="email-header">
+            <h2 id="subject">(No subject)</h2>
+            <dl>
+              <div><dt>From</dt><dd id="from">—</dd></div>
+              <div><dt>To</dt><dd id="to">—</dd></div>
+              <div id="cc-row" hidden><dt>Cc</dt><dd id="cc"></dd></div>
+              <div><dt>Date</dt><dd id="date">—</dd></div>
+            </dl>
+          </header>
+          <div id="email-body" class="email-body"></div>
+          <section id="attachments" class="attachments" hidden>
+            <h3>Attachments</h3>
+            <ul id="attachment-list"></ul>
+          </section>
+        </article>
+      </section>
+    </main>
+
+    <footer>Built by <a href="https://github.com/HichemTab-tech">Hichem</a></footer>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>

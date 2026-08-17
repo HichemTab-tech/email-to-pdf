@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "EML to PDF",
+  "short_name": "EML to PDF",
+  "version": "0.1.0",
+  "description": "Convert downloaded EML email files into clean, printable PDFs—entirely on your device.",
+  "homepage_url": "https://github.com/HichemTab-tech/email-to-pdf",
+  "minimum_chrome_version": "123",
+  "incognito": "not_allowed",
+  "action": {
+    "default_title": "Open EML to PDF"
+  },
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "icons": {
+    "16": "assets/icon-16.png",
+    "32": "assets/icon-32.png",
+    "48": "assets/icon-48.png",
+    "128": "assets/icon-128.png"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'none'"
+  }
+}
